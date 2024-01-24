@@ -1,5 +1,3 @@
- manifold-PP
-
 ============== Part 1: Readme Description for Matlab Codes =============================
 
 This Readme description provides a summary of Matlab files for producing Figure 2 (left panel and right panel) in the paper. Inputs, such as sample size n, data dimension p, and types of data distribution, used in codes for other figures can be similarly and manually adjusted.
