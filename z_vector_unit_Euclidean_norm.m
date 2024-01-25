@@ -11,7 +11,5 @@ function [z_vector] = z_vector_unit_Euclidean_norm( X_vector )
 %--------------------------------------------------------------------------
 
 z_vector = X_vector / sqrt(sum(X_vector.^2)); % fastest
-%z_vector = X_vector / ( (sum(X_vector.^2))^(1/2) ); % faster
-%z_vector =  X_vector / norm(X_vector, 2); % slower
 
 % vector, on the unit sphere

@@ -65,7 +65,6 @@ if method == 11
 
     lambda_min = vector_lambda_values(dim_p);
     %min(vector_lambda_values); % minimum \lambda_j(A_1^T A_1)
-    %disp(['   lambda_min = ', num2str(lambda_min)])
 
     %_____________________ Part 3: 2 index sets _________________________
     E_set_one  = find(vector_lambda_values == lambda_min); % E_1
@@ -114,7 +113,6 @@ if method == 11
 
             if     method == 11 % search mu in an interval
                 mu_init = [mu_Lower, mu_Upper];
-                % for p > n, results differ from those of option_LGMP_Hager = 2
 
             end % if method == 11,
 
