@@ -361,9 +361,9 @@ if choice_z_vector_KS == 0
         D_n_fea,    ...
         D_n_dep_1,  D_n_indep_2, ...
         D_n_crt_11, D_n_crt_3])
-    set(gca, 'XTickLabel', {'z_fea', ...
-        'z_1', 'z_2', ...
-        'z_crt; I', 'z_crt; II'}, 'XTickLabelRotation', 45); %, 'FontSize', 8);
+    set(gca, 'XTickLabel', {'v_fea', ...
+        'v_1', 'v_2', ...
+        'v_crt; I', 'v_crt; II'}, 'XTickLabelRotation', 45); %, 'FontSize', 8);
 end
 
 ylabel(['\textbf{compare} ', ...
@@ -390,16 +390,16 @@ print(h_3, '-depsc', [figure_name_3, '.eps']);
 
 %============ For Section 4.1 =============================================
 % demo_Matlab_Figure_2
-%  mu_G_vector, cov_G_matrix are: 
+%  mu_G_vector, cov_G_matrix are:
 %          0    4.2500
-% 
+%
 % ===== For Theorem 1 =====
 %  gamma = p/n = 5.5, mu_2(G) = 4.25
 % ===== For Theorem 2(i) =====
-%  
+%
 % ======== Part 2: compare box plots of KS-statistics ======
 %     0.0144    0.4970    0.3957    0.0144    0.0144
-% 
+%
 % Elapsed time is 19.889336 seconds.
 % feasible directions (total, failures, prop) = 116            16      0.137931
-% 
+%
